@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+.lista1{
+  
+  margin-top: 10px;
+  padding-left: 30px;
+
+}
+
+.parteum{
+  
+  display:inline-block;
+  width: 200px;
+  height: 150px;
+  line-height: 1.9;
+  margin-left: 10px;
+
+}
+
+.botoes button {
+  display: inline block; /*tranforma em bloquinhos um do lado do outro*/
+  margin: 10px; /* coloca espaço ao redor de cada botão */
+  padding: 6px 18px;
+  background-color: rgb(197, 192, 192);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* adicionou uma sombra nos botões*/
+}
+
+.partedois{
+  margin-left: 10px;
+}
+
+div {
+  display: block; /*transforma tudo em bloco, e fica um em baixo do outro*/
+  height: 50%; /*tamanho da largura*/
+  width: 50%; /* tamanho da altura*/
+  margin-top:20px;
+}
+  
+
+
+.circulo {
+  width: 100px; /*largura*/
+  height: 100px; /*altura*/
+  border-radius: 50%; /*arredonda as bordas*/
+  background-color: rgb(148, 148, 150);
+}
+
+
+
+
+.imagens{
+  display:inline;
+  width: 40px;
+}
+
+
+.cachorros > div {
+  display: inline-block; /* Define as divs como inline-block */
+  padding: 20px; /* Adiciona padding interno nas divs */
+  width: 200px; /* Define uma largura fixa para as divs */ 
+  box-sizing: border-box; /* Inclui padding e borda no tamanho total das divs */
+}
+
+.cachorros img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 5px; /* Cantos arredondados nas imagens */
+}
+
+.cachorros p {
+  margin: 10px  /* Adiciona margem vertical nas tags p */
+}
+
+.cachorros button {
+  padding: 10px 20px; /* Padding interno do botão */
+  background-color: grey; /* Cor de fundo do botão */
+}
+
+
+.amigao a {
+  display:inline-block;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.redessociais {
+  padding-left: 20px;
+}
+
+.redessociais img {
+  display: inline-block; 
+  width: 20px; /* largura da imagens */
+  height: 20px; /* altura da imagens */
+}
+
+.menu{
+  display:block;
+  margin-top: 20px;
+  padding-left:20px; 
+}
+
+.lista2 li {
+  margin-top: 10px; /* da um espaço cada item da lista com margin-top */
+  display: block; /* Define cada item da lista como um bloco */
+}
+
